@@ -1,29 +1,30 @@
 # vue-kurs
 
 
-Forberedelser
+##Forberedelser
 
-## NODE 
+### NODE 
 
 https://nodejs.org/en/
 
-## VUE 
+### VUE 
 ```
 $ npm install vue 
 ```
 
-## VUE UI:
+### VUE UI:
 ```
 $ npm install -g @vue/cli
 ```
 
-## VUE Plug-in browsers
+### VUE Plug-in browsers
 https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg
 
-## IDE
+### IDE
 Valgfritt (anbefaler VSCode)
 
 
+## Last ned kode
 Klon repoet med git, evt last ned repoet med den grønne knappen oppe til høyre og unzip.
 
 ## Installer prosjekt fra cmd med cd vue-kurs
