@@ -1,8 +1,7 @@
 <template>
   <div>
-    <h1> {{ header }}</h1>
-    <p> {{ text }} </p>
-    <p> {{ textUpperCase }} </p>
+    <h1> Exercise 2</h1>
+    <p class="text"> {{text}} </p>
   </div>
 </template>
 
@@ -11,17 +10,21 @@ export default {
   name: 'Exercise2',
   data: function () {
       return {
-        header: "Exercise 2",
-        text: "Her er poenget å gjøre noe kult!"
+          text: "Lag tre knapper.\n" +
+            "Én som toggler upper-/lowercase på denne teksten.\n" + 
+            "Én som resetter teksten tilbake til orginal verdi.\n" + 
+            "Én som legger utropstegn på slutten av teksten."
       }
   },
   methods: {
 
   },
   computed: {
-      textUpperCase(){
-          return this.text.toUpperCase();
-      }
   }
 }
 </script>
+<style scoped>
+.text {
+    white-space: pre-line;
+}
+</style>
